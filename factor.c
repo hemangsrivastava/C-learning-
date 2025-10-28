@@ -1,0 +1,10 @@
+/*Write a program to print all factors of a given number.*/#include <stdio.h>
+int main(){
+int a,i,c=0; 
+printf("enter the number: ");
+scanf("%d",&a);
+for (i=1;i<=a;i++){
+if (a % i == 0){
+printf("%d ",i);}}
+return 0;
+}
